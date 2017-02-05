@@ -14,9 +14,14 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/sony/ivy/full_ivy.mk)
+$(call inherit-product, device/sony/karin_windy/full_karin_windy.mk)
 
 # Inherit some common CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
-PRODUCT_NAME := lineage_ivy
+PRODUCT_NAME := lineage_karin_windy
+
+# Use the latest approved GMS identifiers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT=Sony/karin_windy/karin_windy:7.0/KITAKAMI-2.2.0-170105-0147/1:user/dev-keys \
+    PRIVATE_BUILD_DESC="Sony/karin_windy/karin_windy:7.0/KITAKAMI-2.2.0-170105-0147/1:user/dev-keys"

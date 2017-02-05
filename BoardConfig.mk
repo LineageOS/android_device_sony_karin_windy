@@ -16,26 +16,22 @@
 
 include device/sony/kitakami-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/ivy
+DEVICE_PATH := device/sony/karin_windy
 
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := E6533,E6553,ivy,ivy_dsds
+TARGET_OTA_ASSERT_DEVICE := SGP712,karin_windy
 
 # Boot image/kernel
-TARGET_KERNEL_CONFIG := kitakami_ivy_defconfig
+TARGET_KERNEL_CONFIG := kitakami_karin_windy_defconfig
 
 # Audio
 BOARD_HAVE_BCM_FM := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
-
-# Init
-TARGET_INIT_VENDOR_LIB := libinit_ivy
-TARGET_UNIFIED_DEVICE := true
 
 # NFC
 NFC_NXP_CHIP_TYPE := PN547C2
@@ -52,7 +48,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 24763170816
 
 BOARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/cmhw
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/maxim_sti/gesture_wakeup"
 
 # Wifi
 BOARD_WLAN_DEVICE           := bcmdhd
@@ -67,4 +63,4 @@ WPA_SUPPLICANT_VERSION      := VER_0_8_X
 WIFI_BUS := PCIE
 
 # Inherit from the proprietary version
--include vendor/sony/ivy/BoardConfigVendor.mk
+-include vendor/sony/karin_windy/BoardConfigVendor.mk

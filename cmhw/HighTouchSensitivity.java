@@ -22,7 +22,7 @@ import org.cyanogenmod.internal.util.FileUtils;
  * Glove mode / high touch sensitivity
  */
 public class HighTouchSensitivity {
-    private static final String FILE_MODE = "/sys/devices/virtual/input/clearpad/glove";
+    private static final String FILE_MODE = "/sys/devices/virtual/input/maxim_sti/glove_en";
     private static final String ENABLED = "1";
     private static final String DISABLED = "0";
 
