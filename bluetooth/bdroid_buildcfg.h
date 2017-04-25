@@ -17,8 +17,9 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "Xperia Tabler Z4 Wifi"
+#define BTM_DEF_LOCAL_NAME   "Xperia Tablet Z4"
 #define HCILP_INCLUDED FALSE
 #define BT_WAKE_VIA_USERIAL_IOCTL FALSE
+#define BTM_WBS_INCLUDED TRUE
 
 #endif
