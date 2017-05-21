@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_a8132a65",
+        "filename": "bluetooth/bdroid_buildcfg.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-05-21T13:11:20Z",
+      "side": 0,
+      "message": "Typo",
+      "range": {
+        "startLine": 20,
+        "startChar": 37,
+        "endLine": 20,
+        "endChar": 43
+      },
+      "revId": "e9badd10feac175c7360260c94b7830fcc0dae8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
