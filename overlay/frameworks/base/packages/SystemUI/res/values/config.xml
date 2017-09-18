@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Add SonyOtgSwitch to the default tiles in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+	    wifi,cell,battery,dnd,flashlight,rotation,bt,airplane,custom(org.lineageos.sonyotgswitch/org.lineageos.sonyotgswitch.UsbOtgSwitch)
+    </string>
+</resources>
