@@ -88,7 +88,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     $(LOCAL_PATH)/keylayout/mhl-rcp.kl:system/usr/keylayout/mhl-rcp.kl \
-    $(LOCAL_PATH)/keylayout/msm8994-tomtom-snd-card_Button_Jack.kl:system/usr/keylayout/msm8994-tomtom-snd-card_Button_Jack.kl
+    $(LOCAL_PATH)/keylayout/msm8994-tomtom-snd-card_Button_Jack.kl:system/usr/keylayout/msm8994-tomtom-snd-card_Button_Jack.kl \
+    $(LOCAL_PATH)/keylayout/BKB50.kl:system/usr/keylayout/BKB50.kl
 
 # IRQ
 PRODUCT_COPY_FILES += \
